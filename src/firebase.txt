@@ -1,0 +1,9 @@
+  var firebaseConfig = {
+    apiKey: "AIzaSyAsf5yO08n0h8QzWzO94Nb2ZvVE_mZQ6uk",
+    authDomain: "github-user-225a5.firebaseapp.com",
+    databaseURL: "https://github-user-225a5.firebaseio.com",
+    projectId: "github-user-225a5",
+    storageBucket: "github-user-225a5.appspot.com",
+    messagingSenderId: "879396049301",
+    appId: "1:879396049301:web:c9b1035f64f892194fa69c"
+  };

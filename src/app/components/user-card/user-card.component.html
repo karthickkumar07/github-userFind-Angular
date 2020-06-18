@@ -1,0 +1,18 @@
+<div class="card user-card text-white">
+  <div class="background bg-dark">
+    <img
+      [src]="user.avatar_url"
+      class="img-fluid rounded-circle profile-pic border-2 border-white"
+      alt=""
+    />
+  </div>
+  <div class="card-body text-dark">
+    <h5 class="card-title">
+      {{ user.name }}
+    </h5>
+    <p class="card-text">BIO :{{ user.bio }}</p>
+    <p class="card-text">PUBLIC REPOS: {{ user.public_repos }}</p>
+    <p class="card-text">FOLLOWERS: {{ user.followers }}</p>
+    <p class="card-text">FOLLOWING: {{ user.following }}</p>
+  </div>
+</div>
